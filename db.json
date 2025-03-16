@@ -1,0 +1,30 @@
+{
+    "ramens":[
+        {
+            "id" : 1,
+            "name":"Shyu Ramen",
+            "restaurant": "Ichiran",
+            "Image": "Shoyu.jpg",
+            "rating": 5,
+            "commit": "Delicious!"
+
+
+        },
+        {
+            "id": 2,
+            "name": "Miso Ramen",
+            "restaurant": "Menya",
+            "Image": "Miso.jpg",
+            "rating": 4,
+            "commit": "very flavorful!"
+        },
+        {
+            "id":3,
+            "name": "Tonkotsu Ramen",
+            "restaurant": "Ramen-ya",
+            "Image": "tonkotsu.jpg",
+            "rating": null,
+            "commit": null
+        }
+    ]
+}

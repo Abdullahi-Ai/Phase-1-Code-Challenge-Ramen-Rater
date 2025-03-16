@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rater</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+    <h1 id="title">Ramen Rater</h1>
+    <p id="message">Click on a ramen to see its details!</p>
+        <div id="ramen-menu">
+        <img src="gyukotsu.jpg" />
+        <img src="kojiro.jpg" />
+        <img src="naruto.jpg" />
+        <img src="nirvana.jpg" />
+        <img src="shoyu.jpg" />
+        </div>
+       <div id="Ramen-menu">
+       </div>
+       <div id="ramen-details">
+       <h2 class="name"></h2>
+      <h3 class="restaurant"></h3>
+      </div>
+       </div>
+       <h3>Rating:</h3>
+       <p id="comment-display">
+        10/10
+       </p>
+    </header>
+    <!--New ramen-->
+    <form id="new-Ramen">
+        <h4>Add New Ramen</h4>
+        
+        <label for="new-name">Meal Name:</label>
+        <input type="text" name="name" id="new-name"/>
+        <label for="new-restaurant">Restaurant Name:</label>
+        <input type="text" name="restaurant" id="new-restaurant"/>
+        <label for="new-image">Image URL:</label>
+        <input type="text" name="image" id="new-image"/>
+        <label for="new-rating">Rating:</label>
+        <input type="number" name="rating" id="new-rating"/>
+        <label for="new-comment">Comment:</label>
+        <textarea name="new-comment" id="new-comment"></textarea>
+        <input type="button" value="Create" id="create-ramen"/>
+    </form>
+    
+</body>
+</html>
