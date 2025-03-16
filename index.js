@@ -70,7 +70,7 @@ function addSubmitListener() {
             return;
         }
 
-        // Add new ramen data to the ramenData object
+        
         ramenData[newImage] = {
             name: newName,
             restaurant: newRestaurant,
@@ -78,17 +78,16 @@ function addSubmitListener() {
             comment: newComment
         };
 
-        // Add new image to the ramen menu
+        
         const ramenMenu = document.getElementById("ramen-menu");
         const newImg = document.createElement("img");
         newImg.src = newImage;
         newImg.alt = newName;
         ramenMenu.appendChild(newImg);
 
-        // Attach event listener for new ramen image
         newImg.addEventListener("click", handleClick);
 
-        // Reset form after submission
+    
         form.reset();
     });
 }
